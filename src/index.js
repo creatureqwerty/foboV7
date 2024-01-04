@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-var ghpages = require('gh-pages');
+// var ghpages = require('gh-pages');
 
-ghpages.publish('build', function(err) {});
+// ghpages.publish('build', function(err) {});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
